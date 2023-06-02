@@ -12,6 +12,27 @@
       top: 0;
       right: 0;
     }
+     a {
+            text-decoration: none;
+        }
+        @keyframes pulse-animation {
+      0% {
+        transform: scale(1);
+      }
+      50% {
+        transform: scale(1.1);
+      }
+      100% {
+        transform: scale(1);
+      }
+    }
+    .coming-soon {
+      font-family: "Arial Black", sans-serif;
+      font-size: 80px;
+      font-weight: bold;
+      color: #ffffff;
+      animation: pulse-animation 1.5s infinite;
+    }
   </style>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -39,7 +60,7 @@
             <img src="assets/img/Logo1.png" alt="" width="6%" height="6%">
             <p>SmartGen AI</p>
           </a>
-          <button class="header--cta cta">Try AI</button>
+          <button class="header--cta cta" href="dumbai.html">Try AI</button>
           <div class="header--nav-toggle">
             <span></span>
           </div>
@@ -50,7 +71,7 @@
             <li><span>Product</span></li>
             <li><span>Visions</span></li>
             <li><span>About</span></li>
-            <li><span>What</span></li>
+            <li><span>Pre-Registration</span></li>
           </ul>
         </nav>
         <ul class="l-main-content main-content">
@@ -58,27 +79,23 @@
             <div class="intro">
               <div class="intro--banner">
                 <h1>Bringing<br>intellegence<br>to life</h1>
-                <button class="">Try AI
-                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
-                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
-                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
-                  </g>
+                <button class="" href="Dumb ai.html"><a href="Dumb ai.html" onclick="Victory"><font color="white">Try AI</font></a>
                   </svg>
                   <span class="btn-background"></span>
                 </button>
                 <img src="assets/img/AI.png" alt="Welcome">
               </div>
               <div class="intro--options">
-                <a href="#0">
-                  <h3>AI 1</h3>
+                <a href="Dumb ai.html">
+                  <h3>Dumb AI</h3>
                   <p>Our AI will be able to generate Information and can interact like humans. You can type and interact with it.</p>
                 </a>
-                <a href="#0">
-                  <h3>AI 2</h3>
+                <a href="smartai.html">
+                  <h3>Smart AI</h3>
                   <p>You can download this AI to your computer for AI assistance will be available at your finger tip.</p>
                 </a>
-                <a href="#0">
-                  <h3>AI 3</h3>
+                <a href="contender.html">
+                  <h3>Contender Class</h3>
                   <p>This is Contender Class AI will be available for Coorporation and Organisation Only.</p>
                 </a>
               </div>
@@ -90,7 +107,7 @@
               <div class="work--lockup">
                 <ul class="slider">
                   <li class="slider--item slider--item-left">
-                    <a href="#0">
+                    <a href="Dumb ai.html">
                       <div class="slider--item-image">
                         <img src="assets/img/Dumb AI.png" alt="Victory">
                       </div>
@@ -99,7 +116,7 @@
                     </a>
                   </li>
                   <li class="slider--item slider--item-center">
-                    <a href="#0">
+                    <a href="smartai.html">
                       <div class="slider--item-image">
                         <img src="assets/img/SmartAI.png" alt="Metiew and Smith">
                       </div>
@@ -108,7 +125,7 @@
                     </a>
                   </li>
                   <li class="slider--item slider--item-right">
-                    <a href="#0">
+                    <a href="contender.html">
                       <div class="slider--item-image">
                         <img src="assets/img/CDAI.jpg" alt="Alex Nowak">
                       </div>
@@ -163,7 +180,7 @@
                   <h3>Aayush Kujur</h3>
                 </a>
                 <a href="ritika.html">
-                  <h3>Ritika<br>Raj</h3>
+                  <h3>Ritika Raj</h3>
                 </a>
               </div>
             </div>
@@ -174,12 +191,12 @@
                 <div class="modal">
                   <div class="modal--information">
                     <p>Noida</p>
-                    <a href="mailto:smartgenai@gmail.com">smartgenai@gmail.com</a>
+                    <a href="mailto:smartgenai@gmail.com">smartgen.ai.official@gmail.com</a>
                     <a href="tel:+917091768747">+91 7091768747</a>
                   </div>
                   <ul class="modal--options">
-                    <li><a href="#0">Bēhance</a></li>
-                    <li><a href="#0">dribbble</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="snkalp.html">Founder</a></li>
                     <li><a href="mailto:smartgenai@gmail.com">Contact Us</a></li>
                   </ul>
                 </div>
@@ -188,8 +205,9 @@
           </li>
           <li class="l-section section">
             <div class="hire">
-              <h2>You want us to do</h2>
-              <!-- checkout formspree.io for easy form setup -->
+                  <h1 class="coming-soon">COMING SOON</h1>
+                  <center><div class="countdown"></div></center>
+              <h2>Pre-Register</h2>
               <form class="work-request">
                 <div class="work-request--options">
                   <span class="options-a">
@@ -219,11 +237,32 @@
     <li>Products</li>
     <li>Vision</li>
     <li>Contact</li>
-    <li>What</li>
+    <li>Pre-Register</li>
   </ul>
 </div>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
 <script src="assets/js/functions-min.js"></script>
+  <script>
+    // Calculate remaining time in days, hours, minutes, and seconds
+    function calculateCountdown() {
+      var endDate = new Date();
+      endDate.setMonth(endDate.getMonth() + 24);
+      endDate.setHours(0, 0, 0, 0);
+      
+      var now = new Date();
+      var remainingTime = endDate - now;
+      
+      var days = Math.floor(remainingTime / (1000 * 60 * 60 * 24));
+      var hours = Math.floor((remainingTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      var minutes = Math.floor((remainingTime % (1000 * 60 * 60)) / (1000 * 60));
+      var seconds = Math.floor((remainingTime % (1000 * 60)) / 1000);
+      
+      document.getElementsByClassName("countdown")[0].innerHTML = "Launching in: " + days + " days, " + hours + " hours, " + minutes + " minutes, " + seconds + " seconds";
+    }
+    
+    // Update countdown every second
+    setInterval(calculateCountdown, 1000);
+  </script>
 </body>
 </html>
